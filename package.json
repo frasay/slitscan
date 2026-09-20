@@ -5,12 +5,14 @@
   "main": "public/electron.js",
   "homepage": "./",
   "devDependencies": {
-    "electron": "^latest",
+    "electron": "^27.0.0",
     "electron-builder": "^latest",
     "electron-is-dev": "^latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
+    "concurrently": "^8.2.0",
+    "wait-on": "^7.0.1"
   },
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2"
